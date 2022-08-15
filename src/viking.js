@@ -105,3 +105,61 @@ class War {
     }
   }
 }
+
+const war = new War();
+
+const saxon1 = new Saxon(100, 50);
+const saxon2 = new Saxon(100, 50);
+const saxon3 = new Saxon(100, 50);
+const saxon4 = new Saxon(100, 50);
+const saxon5 = new Saxon(100, 50);
+
+const viking1 = new Viking("Vikin1", 100, 50);
+const viking2 = new Viking("Vikin2", 100, 50);
+const viking3 = new Viking("Vikin3", 100, 50);
+const viking4 = new Viking("Vikin4", 100, 50);
+const viking5 = new Viking("Vikin5", 100, 50);
+
+war.addSaxon(saxon1);
+war.addSaxon(saxon2);
+war.addSaxon(saxon3);
+war.addSaxon(saxon4);
+war.addSaxon(saxon5);
+
+war.addViking(viking1);
+war.addViking(viking2);
+war.addViking(viking3);
+war.addViking(viking4);
+war.addViking(viking5);
+
+war.saxonAttack();
+war.vikingAttack();
+war.saxonAttack();
+war.vikingAttack();
+war.saxonAttack();
+war.vikingAttack();
+war.saxonAttack();
+war.vikingAttack();
+war.saxonAttack();
+war.vikingAttack();
+war.saxonAttack();
+war.vikingAttack();
+war.saxonAttack();
+war.vikingAttack();
+war.saxonAttack();
+war.vikingAttack();
+war.saxonAttack();
+war.vikingAttack();
+war.saxonAttack();
+war.vikingAttack();
+war.saxonAttack();
+war.vikingAttack();
+war.saxonAttack();
+war.vikingAttack();
+war.saxonAttack();
+war.vikingAttack();
+war.saxonAttack();
+war.vikingAttack();
+war.saxonAttack();
+
+console.log(war.showStatus());
